@@ -12,10 +12,18 @@ void setup() {
 }
 
 void draw() {
+  fill(127,0,255);
   rect(65,75,125,75); // First rectangle
+  fill(0,255,0);
   rect(290,75,125,75); // Second rectangle
+  fill(255,128,0);
   rect(515,75,125,75); // Third rectangle
   
-  textSize(14);
+  
+  ellipse(350,350,200,200);
+  
+  
+  
+  
   
 }
