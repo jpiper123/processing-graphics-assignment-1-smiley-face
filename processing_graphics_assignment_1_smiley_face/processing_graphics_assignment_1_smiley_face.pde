@@ -12,15 +12,26 @@ void setup() {
 }
 
 void draw() {
+  stroke(0,255,0);
+  strokeWeight(1);
   fill(127,0,255);
   rect(65,75,125,75); // First rectangle
+  stroke(127,0,255);
+  strokeWeight(4);
   fill(0,255,0);
   rect(290,75,125,75); // Second rectangle
+  stroke(255,0,0);
+  strokeWeight(10);
   fill(255,128,0);
   rect(515,75,125,75); // Third rectangle
   
-  
+  stroke(0,0,0);
+  strokeWeight(4);
+  fill(255,255,0);
   ellipse(350,350,200,200);
+  
+  
+  
   
   
   
