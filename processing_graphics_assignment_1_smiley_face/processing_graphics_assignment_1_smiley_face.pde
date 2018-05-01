@@ -46,8 +46,17 @@ void draw() {
   fill(255,255,0);
   ellipse(350,396,90,20);
   
+  fill(255,255,255);
+  textSize(14);
+  text("Purple fill", 65, 170);
   
+  fill(255,255,255);
+  textSize(14);
+  text("strokeWeight=4", 290, 170);
   
+  fill(255,255,255);
+  textSize(14);
+  text("strokeWeight=10 and fill=blue", 480, 170);
   
   
   
